@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import MahasiswaForm from "./components/MahasiswaForm";
 import MahasiswaList from "./components/MahasiswaList";
+import { HashRouter as Router } from "react-router-dom";
+
 
 function App() {
   const [mahasiswaList, setMahasiswaList] = useState([]);
